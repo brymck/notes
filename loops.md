@@ -18,9 +18,13 @@ for (var i = 0; i < 10; i++) {
 }
 {% endhighlight %}
 
-Note that you can only remove the braces {} above if it is followed by
-_a single statement_. In general, this makes code harder to read, fix and change, so
-it's not recommended.
+Note that you can only remove the braces {} above if it is followed by _a
+single statement_. In general, this makes code harder to read, fix and change,
+so I personally don't recommend it. While brace-less `if` statements are fairly
+common in languages like C, it's less generally accepted in JavaScript. For one
+example of an important JavaScript project that has disavowed brace-less
+blocks, see
+[jQuery](http://docs.jquery.com/JQuery_Core_Style_Guidelines#Blocks).
 
 CoffeeScript:
 
