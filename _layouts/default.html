@@ -10,12 +10,21 @@
   <!--[if lt IE 8]>
     <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
   <![endif]-->
+  <link rel="stylesheet" href="css/master.css" type="text/css"> 
 </head>
 <body>
+  <div class="container">
+    <nav>
+{% capture toc %}
+  {% include toc.md %}
+{% endcapture %}
+{{ toc | unindent | markdownify }}
+    </nav>
 {{ content }}
-  <footer>
-    <p>© 2012 Bryan McKelvey</p>
-  </footer>
+    <footer style="center">
+      <p>© 2012 Bryan McKelvey</p>
+    </footer>
+  </div>
 </body>
 </html>
 

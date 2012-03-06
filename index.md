@@ -74,15 +74,17 @@ CoffeeScript:
 
 {% highlight coffeescript %}
 Number::times = (block) ->
-  for i in [0...@]
-    block.call @, i
+  for i in [0...this]
+    block.call this, i
 
 10.times (i) -> console.log i
 {% endhighlight %}
 
-That's the same thing as the above written in a third as much code. More importantly,
-the focus is now on the important words; things like `prototype` and `function` have
-been turned into punctuation.
+That's the same thing as the above written in a third as much code. More
+importantly, the focus is now on the important words; things like `prototype`
+and `function` have been turned into punctuation. Punctuation like `(){};` has
+been phased out in favor of whitespace. As long as I keep functions and blocks
+focused on a single task, I find this easier to read.
 
 And CoffeeScript _really_ shines when you get into more complex loops. Great.
 Now we have a more terse, more readable version of the above.
