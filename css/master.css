@@ -36,6 +36,21 @@ nav ul li {
   display: inline-block;
 }
 
+/* Code blocks */
+pre, code, tt {
+  font-family: menlo, monaco, "andale mono", "lucida console", monospace;
+}
+
+pre {
+  background-color: #fafafb;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  padding: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* Footer */
 footer {
   text-align: center;
 }

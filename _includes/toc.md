@@ -1,3 +1,4 @@
 * [Top](/notes/)
-* [Setup](setup)
-* [Loops](loops)
+* [Setup](/notes/setup/)
+* [Loops](/notes/loops/)
+* [Classes](/notes/classes/)

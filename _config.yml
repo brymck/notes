@@ -1,5 +1,10 @@
-markdown: rdiscount
+auto: true
+baseurl: /notes/
+
 pygments: true
+markdown: rdiscount
+permalink: pretty
+
 exclude:
   - Gemfile
   - Gemfile.lock
