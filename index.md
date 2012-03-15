@@ -15,22 +15,21 @@ While there's an initial learning curve, from there you receive many benefits.
 
 ## Frustration
 
-If I may use my broad brush for a second, I'll declare that the biggest
-turn-off for aspiring programmers has to be a bad first impression. What is
-that first impression? Well, if you're starting off on web programming it might
-be PHP. If it's scripting for productivity suites like Office, it's likely VBA.
-If it's your first computer science course, that would be C or C++. If you just
-downloaded the first IDE you heard of for the OS you likely have, Visual
-Studio, it might be VB .NET.
+If I may use my broad brush for a second, I'll declare that the biggest turn-off
+for aspiring programmers has to be a bad first impression. What is that first
+impression? Well, if you're starting off on web programming it might be PHP. If
+it's scripting for productivity suites like Office, it's likely VBA.  If
+it's your first computer science course, that would be C or C++. If you just
+downloaded the first IDE you heard of for the OS you likely have, Visual Studio,
+it might be VB .NET.
 
-C and C++ are wonderfully powerful, but the initial learning curve is steep:
-you have to learn all the basics of programming plus things like memory
-management, pointers and compilation _all at once_. And it's quite likely that
-that power is lost on the beginner trying to learn how to print user input
-backwards gets mysterious errors on segfaults and missing semicolons and not
-enough or too many asterisks. C++ is great for experienced professionals
-working in large teams with other experienced professionals and focused on
-efficiency.
+C and C++ are wonderfully powerful, but the initial learning curve is steep: you
+have to learn all the basics of programming plus things like memory management,
+pointers and compilation _all at once_. And it's quite likely that that power
+is lost on the beginner trying to learn how to print user input backwards gets
+mysterious errors on segfaults and missing semicolons and not enough or too many
+asterisks. C++ is great for experienced professionals working in large teams
+with other experienced professionals and focused on efficiency.
 
 The other two, PHP and VBA, are just painful in a way that most languages
 aren't. We can argue about Perl vs Python vs Ruby until the cows come home, but

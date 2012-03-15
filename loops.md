@@ -6,9 +6,8 @@ description: Basic loops
 
 ## For loops
 
-The below functions will all print the numbers 0 through 9. They start at
-`i = 0`, print `i`, increase `i` by 1, then check and make sure it's less than
-10.
+The below functions will all print the numbers 0 through 9. They start at `i =
+0`, print `i`, increase `i` by 1, then check and make sure it's less than 10.
 
 JavaScript:
 
@@ -18,13 +17,12 @@ for (var i = 0; i < 10; i++) {
 }
 {% endhighlight %}
 
-Note that you can only remove the braces {} above if it is followed by _a
-single statement_. In general, this makes code harder to read, fix and change,
-so I personally don't recommend it. While brace-less `if` statements are fairly
+Note that you can only remove the braces {} above if it is followed by _a single
+statement_. In general, this makes code harder to read, fix and change, so I
+personally don't recommend it. While brace-less `if` statements are fairly
 common in languages like C, it's less generally accepted in JavaScript. For one
-example of an important JavaScript project that has disavowed brace-less
-blocks, see
-[jQuery](http://docs.jquery.com/JQuery_Core_Style_Guidelines#Blocks).
+example of an important JavaScript project that has disavowed brace-less blocks,
+see [jQuery](http://docs.jquery.com/JQuery_Core_Style_Guidelines#Blocks).
 
 CoffeeScript:
 
@@ -40,10 +38,10 @@ Ruby:
 
 ### Extending JavaScript
 
-Two paragraphs into its description, CoffeeScript mentions JavaScript's
-"awkward braces and semicolons" and "gorgeous object model." These are both
-true. There's a certain ease of expression in the Ruby line above. You can extend
-JavaScript easily to have a `times` method on its numbers.
+Two paragraphs into its description, CoffeeScript mentions JavaScript's "awkward
+braces and semicolons" and "gorgeous object model." These are both true. There's
+a certain ease of expression in the Ruby line above. You can extend JavaScript
+easily to have a `times` method on its numbers.
 
 JavaScript:
 {% highlight javascript %}
@@ -60,8 +58,8 @@ Number.prototype.times = function(block) {
 
 It's nitpicky, sure, but many languages will abbreviate some of the above
 elements like `prototype`, `function` and the `for` loop, or will mercifully
-require fewer braces, parentheses or semicolons. Nonetheless, how the above _works_
-is quite nice:
+require fewer braces, parentheses or semicolons. Nonetheless, how the above
+_works_ is quite nice:
 
  1. Open up the `prototype`, which is shared by all numbers.
  2. Create a new method call `times`, which you set equal to a function that:
