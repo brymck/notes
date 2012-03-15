@@ -4,7 +4,7 @@ title: Loops
 description: Basic loops
 ---
 
-# For loops
+## For loops
 
 The below functions will all print the numbers 0 through 9. They start at
 `i = 0`, print `i`, increase `i` by 1, then check and make sure it's less than
@@ -38,7 +38,7 @@ Ruby:
 10.times { |i| puts i }
 {% endhighlight %}
 
-## Extending JavaScript
+### Extending JavaScript
 
 Two paragraphs into its description, CoffeeScript mentions JavaScript's
 "awkward braces and semicolons" and "gorgeous object model." These are both
@@ -93,8 +93,4 @@ focused on a single task, I find this easier to read.
 And CoffeeScript _really_ shines when you get into more complex loops. Great.
 Now we have a more terse, more readable version of the above.
 
-# While loops
-
-To get started enter a title for your note above. When you’re ready to save
-your note just use Vim’s :write or :update commands, a filename will be picked
-automatically based on the title.
+## While loops

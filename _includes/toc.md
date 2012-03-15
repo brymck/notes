@@ -1,4 +1,9 @@
-* [Top](/notes/)
-* [Setup](/notes/setup/)
-* [Loops](/notes/loops/)
-* [Classes](/notes/classes/)
+{% capture page_url %}{{ page.url | remove_first: "/" }}{% endcapture %}
+{% for link in site.nav %}
+  {% if page_url == link.url or (page_url == "index.html" and link.url == "") %}
+  * {{ link.text }}
+  {% else %}
+  * [{{ link.text }}](/notes/{{ link.url }})
+  {% endif %}
+{% endfor %}
+  * [Source](https://github.com/brymck/notes/)
