@@ -21,8 +21,8 @@ const config: QuartzConfig = {
       "private",
       "templates",
       // ".obsidian",
-      "Evernote",
-      "Files",
+      "!(PublicMedia)**/!(*.md)",
+      // "!(*.md)",
     ],
     defaultDateType: "modified",
     theme: {
