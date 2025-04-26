@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"bca1234e359b5fc9","type":"group","x":-200,"y":-1060,"width":960,"height":1400,"color":"4","label":"Ecological dynamics"},
-		{"id":"d56444272af31b55","type":"file","file":"Query dashboard.md","subpath":"#Home ideas","x":-180,"y":-1020,"width":920,"height":420,"color":"4"},
-		{"id":"7f6f6033a20f5e33","type":"file","file":"Query dashboard.md","subpath":"#Code ideas","x":-180,"y":-560,"width":920,"height":420,"color":"3"},
-		{"id":"8dbdad57ca69b25f","type":"file","file":"Query dashboard.md","subpath":"#Work ideas","x":-180,"y":-100,"width":920,"height":420,"color":"2"}
-	],
-	"edges":[]
-}

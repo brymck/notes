@@ -6,11 +6,23 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Bryan&#039;s home page</title>
+    <title>Herbicide</title>
+    <link>https://quartz.jzhao.xyz/Home/Yard/Herbicide</link>
+    <guid>https://quartz.jzhao.xyz/Home/Yard/Herbicide</guid>
+    <description>The common herbicides used on Kentucky bluegrass lawns in the US are 2,4D Dicamba MCPP Quinclorac Mesotrione (Tenacity) It’s hard for me to find dicamba and quinclorac in Japan.</description>
+    <pubDate>Sat, 26 Apr 2025 02:28:07 GMT</pubDate>
+  </item><item>
+    <title>Mowing the lawn</title>
+    <link>https://quartz.jzhao.xyz/Home/Yard/Mowing-the-lawn</link>
+    <guid>https://quartz.jzhao.xyz/Home/Yard/Mowing-the-lawn</guid>
+    <description>Kentucky bluegrass will grow about 1-2 inches (25-51 mm) per week in its peak season.</description>
+    <pubDate>Sat, 26 Apr 2025 02:21:14 GMT</pubDate>
+  </item><item>
+    <title>Bryan&#039;s notes</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description>Hello.</description>
-    <pubDate>Sat, 26 Apr 2025 01:03:03 GMT</pubDate>
+    <pubDate>Sat, 26 Apr 2025 02:07:05 GMT</pubDate>
   </item>
     </channel>
   </rss>
