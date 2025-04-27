@@ -21,7 +21,7 @@ const config: QuartzConfig = {
       "private",
       "templates",
       // ".obsidian",
-      "!(PublicMedia)**/!(*.md)",
+      "!(PublicMedia|fonts)**/!(*.md)",
       // "!(*.md)",
     ],
     defaultDateType: "modified",
@@ -29,11 +29,12 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "EB Garamond",
+        body: "EB Garamond",
+        code: "Fira Code",
       },
       colors: {
+        /*
         lightMode: {
           light: "#faf8f8",
           lightgray: "#e5e5e5",
@@ -56,6 +57,31 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
+        */
+        // Catppuccin Latte
+        lightMode: {
+          light: "#eff1f5",        // Base
+          lightgray: "#ccd0da",    // Surface 1
+          gray: "#9ca0b0",         // Overlay 1
+          darkgray: "#4c4f69",     // Text
+          dark: "#4c4f69",         // Text
+          secondary: "#1e66f5",    // Blue
+          tertiary: "#7287fd",     // Sky
+          highlight: "rgba(4, 165, 229, 0.15)", // Sky (with alpha)
+          textHighlight: "#df8e1d88", // Yellow (with alpha)
+        },
+        // Catppuccin Frappe
+        darkMode: {
+          light: "#303446",        // Base
+          lightgray: "#51576d",    // Surface 1
+          gray: "#626880",         // Overlay 1
+          darkgray: "#c6d0f5",     // Text
+          dark: "#c6d0f5",         // Text
+          secondary: "#8caaee",    // Blue
+          tertiary: "#99d1db",     // Sky
+          highlight: "rgba(140, 170, 238, 0.15)", // Sky (with alpha)
+          textHighlight: "#e5c89088", // Yellow (with alpha)
+        },
       },
     },
   },
@@ -67,10 +93,10 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          light: "catppuccin-latte",
+          dark: "catppuccin-frappe",
         },
-        keepBackground: false,
+        keepBackground: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
