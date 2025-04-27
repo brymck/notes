@@ -18,12 +18,6 @@
     <description>These are just a few notes on how to write Java without garbage collection or runtime memory allocation.</description>
     <pubDate>Sun, 27 Apr 2025 13:00:19 GMT</pubDate>
   </item><item>
-    <title>Setting up local models</title>
-    <link>https://brymck.github.io/notes/Setting-up-local-models</link>
-    <guid>https://brymck.github.io/notes/Setting-up-local-models</guid>
-    <description>Tailscale graph TD subgraph Local Host Tailscale[Tailscale Tunnel] Caddy[Caddy Reverse Proxy] WebUI[Open WebUI] Ollama[Ollama LLM Backend] end Tailscale --&gt; Caddy Caddy --&gt; WebUI WebUI --&gt; Ollama Caddy To serve bryans-mac-studio.tail398295.ts.net { tls /opt/homebrew/etc/bryans-mac-studio.ta...</description>
-    <pubDate>Sat, 26 Apr 2025 06:39:38 GMT</pubDate>
-  </item><item>
     <title>Herbicide</title>
     <link>https://brymck.github.io/notes/Home/Yard/Herbicide</link>
     <guid>https://brymck.github.io/notes/Home/Yard/Herbicide</guid>
