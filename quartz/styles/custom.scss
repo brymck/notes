@@ -1,3 +1,80 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+@font-face {
+    font-family: "EBGaramond12-Regular";
+    src: url("static/fonts/EBGaramond/EBGaramond12-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "EBGaramond08-Regular";
+    src: url("static/fonts/EBGaramond/EBGaramond08-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "EBGaramond12-Italic.woff2";
+    src: url("static/fonts/EBGaramond/EBGaramond12-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "EBGGaramond08-Italic";
+    src: url("static/fonts/EBGaramond/EBGaramond08-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "EBGaramond-InitialsF1";
+    src: url("static/fonts/EBGaramond/EBGaramond-InitialsF1.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "EBGaramond-InitialsF2";
+    src: url("static/fonts/EBGaramond/EBGaramond-InitialsF2.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "FiraCode-Regular";
+    src: url("static/fonts/FiraCode/FiraCode-Regular.woff2") format("woff2");
+}
+
+article {
+    --dropcap-font-size: 1.95rem;
+}
+
+body,
+section {
+    font-feature-settings: "liga", "xtex";
+}
+
+article {
+    position: relative;
+}
+
+article > p:first-child::first-line {
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    text-indent: 0;
+}
+
+article > p:first-child::before {
+    content: attr(data-first-letter);
+    color: var(--gray);
+    font-family: "EBGaramond-InitialsF1";
+    font-size: var(--dropcap-font-size);
+    left: 0;
+    position: absolute;
+    text-indent: 0;
+    text-transform: uppercase;
+}
+
+article > p:first-child::first-letter {
+    float: left;
+    font-family: "EBGaramond-InitialsF2";
+    font-size: var(--dropcap-font-size);
+    padding-right: 0.1em;
+    text-indent: 0;
+}
+
+article p {
+    line-height: 1.3;
+    text-align: justify;
+}

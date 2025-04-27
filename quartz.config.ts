@@ -26,12 +26,12 @@ const config: QuartzConfig = {
     ],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
+      fontOrigin: "local",
+      cdnCaching: false,
       typography: {
-        header: "EB Garamond",
-        body: "EB Garamond",
-        code: "Fira Code",
+        header: "EBGaramond12-Regular",
+        body: "EBGaramond12-Regular",
+        code: "FiraCode-Regular",
       },
       colors: {
         /*
@@ -104,6 +104,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.FirstLetter(),
     ],
     filters: [
       Plugin.ExplicitPublish(),
@@ -122,7 +123,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }

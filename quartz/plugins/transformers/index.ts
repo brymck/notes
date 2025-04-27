@@ -1,3 +1,4 @@
+export { FirstLetter } from "./firstletter"
 export { FrontMatter } from "./frontmatter"
 export { GitHubFlavoredMarkdown } from "./gfm"
 export { Citations } from "./citations"
