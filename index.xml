@@ -6,6 +6,18 @@
       <description>Last 10 notes on Bryan&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Object pools</title>
+    <link>https://brymck.github.io/notes/Object-pools</link>
+    <guid>https://brymck.github.io/notes/Object-pools</guid>
+    <description>In garbage-collected languages, object pools provide a way to eliminate runtime memory allocation and garbage collection for critical code paths.</description>
+    <pubDate>Sun, 27 Apr 2025 13:07:52 GMT</pubDate>
+  </item><item>
+    <title>Zero GC Java</title>
+    <link>https://brymck.github.io/notes/Zero-GC-Java</link>
+    <guid>https://brymck.github.io/notes/Zero-GC-Java</guid>
+    <description>These are just a few notes on how to write Java without garbage collection or runtime memory allocation.</description>
+    <pubDate>Sun, 27 Apr 2025 13:00:19 GMT</pubDate>
+  </item><item>
     <title>Setting up local models</title>
     <link>https://brymck.github.io/notes/Setting-up-local-models</link>
     <guid>https://brymck.github.io/notes/Setting-up-local-models</guid>
