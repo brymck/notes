@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := build
 
+action.sh:
+	curl -s -S -o $@ https://raw.githubusercontent.com/saberzero1/quartz-themes/master/action.sh
+	chmod +x $@
+
 build:
 	npx quartz build
 
