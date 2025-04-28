@@ -10,7 +10,7 @@
     <link>https://brymck.github.io/Object-pools</link>
     <guid>https://brymck.github.io/Object-pools</guid>
     <description>In garbage-collected languages, object pools provide a way to eliminate runtime memory allocation and garbage collection for critical code paths.</description>
-    <pubDate>Mon, 28 Apr 2025 13:53:22 GMT</pubDate>
+    <pubDate>Mon, 28 Apr 2025 14:38:41 GMT</pubDate>
   </item><item>
     <title>Zero GC Java</title>
     <link>https://brymck.github.io/Zero-GC-Java</link>
