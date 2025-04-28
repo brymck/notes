@@ -60,7 +60,7 @@ const config: QuartzConfig = {
         */
         // Catppuccin Latte
         lightMode: {
-          light: "#eff1f5",        // Base
+          light: "#f6f7f9",        // Halfway between Base and white
           lightgray: "#ccd0da",    // Surface 1
           gray: "#9ca0b0",         // Overlay 1
           darkgray: "#4c4f69",     // Text
@@ -72,7 +72,7 @@ const config: QuartzConfig = {
         },
         // Catppuccin Frappe
         darkMode: {
-          light: "#303446",        // Base
+          light: "#292c3c",        // Mantle
           lightgray: "#51576d",    // Surface 1
           gray: "#626880",         // Overlay 1
           darkgray: "#c6d0f5",     // Text
@@ -105,6 +105,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.FirstLetter(),
+      Plugin.SmallCaps(),
     ],
     filters: [
       Plugin.ExplicitPublish(),
