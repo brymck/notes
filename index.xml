@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Bryan&#039;s Notes</title>
-      <link>https://brymck.github.io/notes</link>
-      <description>Last 10 notes on Bryan&#039;s Notes</description>
+      <title>Marginalia</title>
+      <link>https://brymck.github.io</link>
+      <description>Last 10 notes on Marginalia</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Object pools</title>
-    <link>https://brymck.github.io/notes/Object-pools</link>
-    <guid>https://brymck.github.io/notes/Object-pools</guid>
+    <link>https://brymck.github.io/Object-pools</link>
+    <guid>https://brymck.github.io/Object-pools</guid>
     <description>In garbage-collected languages, object pools provide a way to eliminate runtime memory allocation and garbage collection for critical code paths.</description>
     <pubDate>Sun, 27 Apr 2025 13:07:52 GMT</pubDate>
   </item><item>
     <title>Zero GC Java</title>
-    <link>https://brymck.github.io/notes/Zero-GC-Java</link>
-    <guid>https://brymck.github.io/notes/Zero-GC-Java</guid>
+    <link>https://brymck.github.io/Zero-GC-Java</link>
+    <guid>https://brymck.github.io/Zero-GC-Java</guid>
     <description>These are just a few notes on how to write Java without garbage collection or runtime memory allocation.</description>
     <pubDate>Sun, 27 Apr 2025 13:00:19 GMT</pubDate>
   </item><item>
     <title>Herbicide</title>
-    <link>https://brymck.github.io/notes/Home/Yard/Herbicide</link>
-    <guid>https://brymck.github.io/notes/Home/Yard/Herbicide</guid>
+    <link>https://brymck.github.io/Home/Yard/Herbicide</link>
+    <guid>https://brymck.github.io/Home/Yard/Herbicide</guid>
     <description>The common herbicides used on Kentucky bluegrass lawns in the US are 2,4D Dicamba MCPP Quinclorac Mesotrione (Tenacity) It’s hard for me to find dicamba and quinclorac in Japan.</description>
     <pubDate>Sat, 26 Apr 2025 02:28:07 GMT</pubDate>
   </item><item>
     <title>Mowing the lawn</title>
-    <link>https://brymck.github.io/notes/Home/Yard/Mowing-the-lawn</link>
-    <guid>https://brymck.github.io/notes/Home/Yard/Mowing-the-lawn</guid>
+    <link>https://brymck.github.io/Home/Yard/Mowing-the-lawn</link>
+    <guid>https://brymck.github.io/Home/Yard/Mowing-the-lawn</guid>
     <description>Kentucky bluegrass will grow about 1-2 inches (25-51 mm) per week in its peak season.</description>
     <pubDate>Sat, 26 Apr 2025 02:21:14 GMT</pubDate>
   </item><item>
     <title>Bryan&#039;s notes</title>
-    <link>https://brymck.github.io/notes/</link>
-    <guid>https://brymck.github.io/notes/</guid>
+    <link>https://brymck.github.io/</link>
+    <guid>https://brymck.github.io/</guid>
     <description>Hello.</description>
     <pubDate>Sat, 26 Apr 2025 02:07:05 GMT</pubDate>
   </item>
