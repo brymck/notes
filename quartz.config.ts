@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Bryan's Notes",
+    pageTitle: "Marginalia",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "brymck.github.io/notes",
+    baseUrl: "brymck.github.io",
     ignorePatterns: [
       "private",
       "templates",

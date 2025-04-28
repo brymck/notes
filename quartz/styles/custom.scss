@@ -36,45 +36,52 @@
     src: url("static/fonts/FiraCode/FiraCode-Regular.woff2") format("woff2");
 }
 
-article {
-    --dropcap-font-size: 1.95rem;
-}
-
-body,
-section {
+:root {
+    --drop-cap-color: var(--gray);
+    --drop-cap-font-size: 2.95em;
+  }
+  
+  body,
+  section {
     font-feature-settings: "liga", "xtex";
-}
-
-article {
+  }
+  
+  article {
     position: relative;
-}
+  
+    p {
+      line-height: 1.3;
+      margin: 0;
+      text-align: justify;
+      text-indent: 1em;
+  
+      &:first-of-type {
+        text-indent: 0;
 
-article > p:first-child::first-line {
-    font-variant: small-caps;
-    letter-spacing: 0.05em;
-    text-indent: 0;
-}
+        &::before {
+          content: attr(data-first-letter);
+          color: var(--drop-cap-color);
+          font-family: "EBGaramond-InitialsF1";
+          font-size: var(--drop-cap-font-size);
+          left: 0;
+          position: absolute;
+          text-indent: 0;
+          text-transform: uppercase;
+        }
+  
+        &::first-letter {
+          float: left;
+          font-family: "EBGaramond-InitialsF2";
+          font-size: var(--drop-cap-font-size);
+          padding-right: 0.1em;
+          text-indent: 0;
+        }
 
-article > p:first-child::before {
-    content: attr(data-first-letter);
-    color: var(--gray);
-    font-family: "EBGaramond-InitialsF1";
-    font-size: var(--dropcap-font-size);
-    left: 0;
-    position: absolute;
-    text-indent: 0;
-    text-transform: uppercase;
-}
-
-article > p:first-child::first-letter {
-    float: left;
-    font-family: "EBGaramond-InitialsF2";
-    font-size: var(--dropcap-font-size);
-    padding-right: 0.1em;
-    text-indent: 0;
-}
-
-article p {
-    line-height: 1.3;
-    text-align: justify;
-}
+        &::first-line {
+          font-variant: small-caps;
+          letter-spacing: 0.05em;
+          text-indent: 0;
+        }
+      }
+    }
+  }
